@@ -2,48 +2,48 @@
 	{
 		"id": 123456789,
 		"name": "Bomba",
-		"dob": "",
+		"dob": "2014-04-23",
 		"height": 100,
 		"mood": "happy",
 		"family_tree": {
 			"father": 321654987,
 			"mother": 444555666
-		}
+		},
 		"registrations": {
-			"EA": "",
-			"FEI": "",
+			"EA": "555",
+			"FEI": "444",
 			"IQ": ""
 		},
 		"medical_history": {
 			"vaccinations": {
 				{
-					"date": ,
+					"date": "2015-01-13",
 					"type": "ABC"
 				},
 				{
-					"date": ,
+					"date": "2015-02-02",
 					"type": "DEF"
 				}
 			},
 			"x_rays": {
 				{
-					"date": 
+					"date": "2016-05-07"
 				},
 				{
-					"date": 
+					"date": "2017-10-18"
 				}
 			}
 		},
 		"competitions": {
 			{
-				"date": ,
-				"name": ,
+				"date": "2016-07-07",
+				"name": "Comp 1",
 				"result": 3
 			},
 			{
-				"date": ,
-				"name": ,
-				"result": 3
+				"date": "2016-11-01",
+				"name": "Comp 2",
+				"result": 1
 			},
 		},
 		"trainings" : {
