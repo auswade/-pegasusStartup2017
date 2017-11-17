@@ -1,0 +1,55 @@
+{
+	{
+		"id": 123456789,
+		"name": "Bomba",
+		"dob": "",
+		"height": 100,
+		"mood": "happy",
+		"family_tree": {
+			"father": 321654987,
+			"mother": 444555666
+		}
+		"registrations": {
+			"EA": "",
+			"FEI": "",
+			"IQ": ""
+		},
+		"medical_history": {
+			"vaccinations": {
+				{
+					"date": ,
+					"type": "ABC"
+				},
+				{
+					"date": ,
+					"type": "DEF"
+				}
+			},
+			"x_rays": {
+				{
+					"date": 
+				},
+				{
+					"date": 
+				}
+			}
+		},
+		"competitions": {
+			{
+				"date": ,
+				"name": ,
+				"result": 3
+			},
+			{
+				"date": ,
+				"name": ,
+				"result": 3
+			},
+		},
+		"trainings" : {
+			{
+				"notes"
+			}
+		}
+	}
+}

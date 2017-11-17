@@ -1,0 +1,11 @@
+{
+	"id": 1,
+	"name": "John Doe",
+	"email": "",
+	"address": "",
+	"horses": [
+		1,
+		5,
+		9
+	]
+}
