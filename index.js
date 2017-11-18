@@ -38,7 +38,7 @@ let horseInfo = {
 
 app.get('/api/horse', loadHorse);
 
-console.log("Connected")
+console.log("Connected to http://localhost:9000")
 
 function loadHorse(req, res){
   console.log(req.query);
