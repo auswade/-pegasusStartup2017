@@ -1,0 +1,14 @@
+[
+	{
+		"type": "farrier",
+		"horse" : 1,
+		"datetime" : "2017-12-01 11:00:00",
+		"notification": "2017-11-30 11:00:00"
+	},
+	{
+		"type": "competition",
+		"horse" : 65,
+		"datetime" : "2017-11-25 17:00:00",
+		"notification": "2017-11-23 17:00:00"
+	}
+]
