@@ -1,73 +1,99 @@
-{
-	{
-		"id": 123456789,
-		"name": "Bomba",
-		"dob": "",
-		"height": 100,
-		"mood": "happy",
-		"family_tree": {
-				
-			"Sire" : { 
-			"id" : 123456789
-			"name" : "";
-				}
-			"Dam":{
-			"id":234567889
-			"name":"";
-			}
-			"Grandsire" : { 
-			"id" : 12344456789
-			"name" : "";
-				}
-			"Damsire": {
-			"id":2348474889
-			"name": "";
-			}
-			
-		}
-		
-		"registrations": {
-			"EA": "",
-			"FEI": "",
-			"IQ": ""
-		},
-		"medical_history": {
-			"vaccinations": {
-				{
-					"date": ,
-					"type": "ABC"
-				},
-				{
-					"date": ,
-					"type": "DEF"
-				}
-			},
-			"x_rays": {
-				{
-					"date": 
-				},
-				{
-					"date": 
-				}
-			}
-		},
-		"competitions": {
-			{
-				"date": ,
-				"name": ,
-				"result": 3
-			},
-			{
-				"date": ,
-				"name": ,
-				"result": 3
-			},
-		},
-		"trainings" : {
-			{
-				"notes": ,
-				"schedules": 
-			}
-		}
-	}
-}
+[
+  {
+    "id": 123456789,
+    "name": "Bomba",
+    "dob": "",
+    "height": 100,
+    "mood": "happy",
+    "family_tree": {
+      "Sire": {
+        "id": 123456789,
+        "name": ""
+      },
+      "Dam": {
+        "id": 234567889,
+        "name": ""
+      },
+      "Grandsire": {
+        "id": 12344456789,
+        "name": ""
+      },
+      "Damsire": {
+        "id": 2348474889,
+        "name": ""
+      }
+    },
+    "registrations": {
+      "EA": "",
+      "FEI": "",
+      "IQ": ""
+    },
+    "medical_history": {
+      "vaccinations": [
+        {
+          "date": "",
+          "type": "ABC"
+        },
+        {
+          "date": "",
+          "type": "DEF"
+        }
+      ],
+      "x_rays": [
+        {
+          "date": ""
+        },
+        {
+          "date": ""
+        }
+      ]
+    },
+    "competitions": [
+      {
+        "date": "",
+        "name": "",
+        "result": 3
+      },
+      {
+        "date": "",
+        "name": "",
+        "result": 3
+      }
+    ],
+    "trainings": {
+      "notes": "",
+      "schedules": [
+        {
+          "day": "Monday",
+          "task": ""
+        },
+        {
+          "day": "Tuesday",
+          "task": ""
+        },
+        {
+          "day": "Wednesday",
+          "task": ""
+        },
+        {
+          "day": "Thursday",
+          "task": ""
+        },
+        {
+          "day": "Friday",
+          "task": ""
+        },
+        {
+          "day": "Saturday",
+          "task": ""
+        },
+        {
+          "day": "Sunday",
+          "task": ""
+        }
+      ]
+    }
+  }
+]
+
+
