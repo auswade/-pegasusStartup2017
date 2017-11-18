@@ -2,54 +2,40 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 	<link rel="stylesheet" href="../css/screen.css" />
 </head>
 <body>
-	<div class="pos-f-t">
-	<div class="collapse" id="navbar-header">
-		<div class="container bg-inverse p-1">
-			<h3>Collapsed content</h3>
-			<p>Toggleable via the navbar brand.</p>
-		</div>
-	</div>
-	<nav class="navbar navbar-light navbar-static-top bg-faded">
-		<div class="container">
-			<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-expanded="false" aria-controls="exCollapsingNavbar2" aria-label="Toggle navigation"></button>
-			<div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-				<a class="navbar-brand" href="/">Pegasus</a>
-				<ul class="nav navbar-nav float-xs-right">
-					<li class="nav-item">
-						<a class="nav-link" href="../">Dashboard</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">My horse</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Neigh</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Neigh</a>
-					</li>
-				</ul>
-			</div>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<a class="navbar-brand" href="#">Pegasus</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="../">Dashboard</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">My horse</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Neigh</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Neigh</a>
+				</li>
+			</ul>
 		</div>
 	</nav>
-</div>
 	<main>
 		<div id="profile-background" style="
 			background-image: url('../images/background.jpg');
 			background-position: center;
-			color: #fff;
-			font-size: 96px;
-			font-weight: bold;
-			text-transform: uppercase;
-			line-height: 400px;
-			text-align: center;
-			text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);">
-			Grass!!!
+			height: 400px;">
 		</div>
 		<div id="profile-image">
 			<img src="../images/horse.jpg" />
@@ -58,25 +44,116 @@
 			<div class="row">
 				<div class="col">
 					<h1 class="text-center">Bomba</h1>
-					<h2 class="title" style="text-align: center;">My little horsey</h2>
+					<h2 class="title text-center">Stallion</h2>
+					<p class="lead text-center"><strong>Competing at</strong> ___ this Sunday</p>
+					<p class="lead text-center"><strong>Farrier appointment</strong> next Tuesday</p>
 				</div>
 			</div>
-			<table class="table" style="margin: 3rem auto; width: 50%">
-				<tbody>
-					<tr>
-						<th scope="row">Breed</th>
-						<td>X</td>
-					</tr>
-					<tr>
-						<th scope="row">Gender</th>
-						<td>X</td>
-					</tr>
-					<tr>
-						<th scope="row">Date of birth</th>
-						<td>X</td>
-					</tr>
-				</tbody>
-			</table>
+			<div class="row">
+				<div class="col-md-4">
+					<h2 class="text-center">Personal</h2>
+					<table class="table">
+						<tbody>
+						<tr>
+							<th scope="row">Date of birth</th>
+							<td>X</td>
+						</tr>
+						<tr>
+							<th scope="row">Breed</th>
+							<td>X</td>
+						</tr>
+						<tr>
+							<th scope="row">Sire</th>
+							<td>ABC</td>
+						</tr>
+						<tr>
+							<th scope="row">Dam</th>
+							<td>DEF</td>
+						</tr>
+						<tr>
+							<th scope="row">Grandsire</th>
+							<td>ABC</td>
+						</tr>
+						<tr>
+							<th scope="row">Damsire</th>
+							<td>DEF</td>
+						</tr>
+						</tbody>
+					</table>
+					<h2 class="text-center">Registrations</h2>
+					<table class="table">
+						<tbody>
+							<tr>
+								<th scope="row">FEI</th>
+								<td>X</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-md-4">
+					<h2 class="text-center">Care instructions</h2>
+					<table class="table">
+						<tbody>
+						<tr>
+							<th scope="row">Feed</th>
+							<td>X</td>
+						</tr>
+						<tr>
+							<th scope="row">Supplements</th>
+							<td>X</td>
+						</tr>
+						<tr>
+							<th scope="row">Rugging</th>
+							<td>X</td>
+						</tr>
+						<tr>
+							<th scope="row">Medications</th>
+							<td>X</td>
+						</tr>
+						<tr>
+							<th scope="row">Notes</th>
+							<td>X</td>
+						</tr>
+						</tbody>
+					</table>
+					<h2 class="text-center">Weekly schedule</h2>
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Mon</th>
+								<th>Tue</th>
+								<th>Wed</th>
+								<th>Thu</th>
+								<th>Fri</th>
+								<th>Sat</th>
+								<th>Sun</th>
+							</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>Train</td>
+							<td>Off</td>
+							<td>Train</td>
+							<td>Off</td>
+							<td></td>
+							<td>Hike</td>
+							<td></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-md-4">
+					<h2 class="text-center">More info goes here</h2>
+					<table class="table">
+						<tbody>
+						<tr>
+							<th scope="row">Attribute</th>
+							<td>Value</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
 		</div>
 	</main>
 	<footer class="bd-footer text-muted">
