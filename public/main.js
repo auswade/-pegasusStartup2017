@@ -5,6 +5,7 @@ $(window).on('load', function() {
     //Stats
     document.getElementById('horsename').innerHTML = data.horsename;
     document.getElementById('horsetype').innerHTML = data.horsetype;
+    document.getElementById('competingat').innerHTML = data.competingat;
     document.getElementById('appointment').innerHTML = data.appointment;
 
     //Personal
@@ -16,7 +17,9 @@ $(window).on('load', function() {
     document.getElementById('damsire').innerHTML = data.damsire;
 
     //Fei
+    document.getElementById('ea').innerHTML = data.ea;
     document.getElementById('fei').innerHTML = data.fei;
+    document.getElementById('iq').innerHTML = data.iq;
 
     //Care Instructions
     document.getElementById('feed').innerHTML = data.feed;
@@ -26,13 +29,13 @@ $(window).on('load', function() {
     document.getElementById('notes').innerHTML = data.notes;
 
     //Weekly Schedule
-    document.getElementById('schedmon').innerHTML = data.schedmon;
-    document.getElementById('schedtues').innerHTML = data.schedtues;
-    document.getElementById('schedwed').innerHTML = data.schedwed;
-    document.getElementById('schedthurs').innerHTML = data.schedthurs;
-    document.getElementById('schedfri').innerHTML = data.schedfri;
-    document.getElementById('schedsat').innerHTML = data.schedsat;
-    document.getElementById('schedsun').innerHTML = data.schedsun;
+    // document.getElementById('schedmon').innerHTML = data.schedmon;
+    // document.getElementById('schedtues').innerHTML = data.schedtues;
+    // document.getElementById('schedwed').innerHTML = data.schedwed;
+    // document.getElementById('schedthurs').innerHTML = data.schedthurs;
+    // document.getElementById('schedfri').innerHTML = data.schedfri;
+    // document.getElementById('schedsat').innerHTML = data.schedsat;
+    // document.getElementById('schedsun').innerHTML = data.schedsun;
   });
 })
 

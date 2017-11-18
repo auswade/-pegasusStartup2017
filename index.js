@@ -11,6 +11,7 @@ app.use(express.static('public'));
 let horseInfo = {
   horsename: "Bomba",
   horsetype: "Stallion",
+  competingat: "Never",
   appointment: "19/11/2017",
   dob: "23/05/1996",
   breed: "Horse",
@@ -18,7 +19,9 @@ let horseInfo = {
   dam: "Wuzzy",
   gsire: "MrFuz",
   damsire: "MissWuz",
+  ea: "thing",
   fei: "thing",
+  iq: "thing",
   feed: "corn",
   supplements: "steroids",
   rugging: "idk",
