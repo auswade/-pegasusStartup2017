@@ -4,7 +4,7 @@ let path = require('path');
 
 function run(){
   app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.sendFile(path.join(__dirname + '/profile/index.html'));
   })
 
   app.listen(8080);

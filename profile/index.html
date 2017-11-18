@@ -43,80 +43,80 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col">
-					<h1 class="text-center">Bomba</h1>
-					<h2 class="title text-center">Stallion</h2>
-					<p class="lead text-center"><strong>Competing at</strong> ___ this Sunday</p>
-					<p class="lead text-center"><strong>Farrier appointment</strong> next Tuesday</p>
+					<h1 class="text-center" id="horsename">Bomba</h1>
+					<h2 class="title text-center" id="horsetype">Stallion</h2>
+					<p class="lead text-center" id="competingat"><strong>Competing at</strong> ___ this Sunday</p>
+					<p class="lead text-center" id="appointment"><strong>Farrier appointment</strong> next Tuesday</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
 					<h2 class="text-center">Personal</h2>
-					<table class="table">
+					<table class="table" id="pinfo">
 						<tbody>
 						<tr>
-							<th scope="row">Date of birth</th>
+							<th scope="row" id="dob">Date of birth</th>
 							<td>X</td>
 						</tr>
 						<tr>
-							<th scope="row">Breed</th>
+							<th scope="row" id="breed">Breed</th>
 							<td>X</td>
 						</tr>
 						<tr>
-							<th scope="row">Sire</th>
+							<th scope="row" id="sire">Sire</th>
 							<td>ABC</td>
 						</tr>
 						<tr>
-							<th scope="row">Dam</th>
+							<th scope="row" id="dam">Dam</th>
 							<td>DEF</td>
 						</tr>
 						<tr>
-							<th scope="row">Grandsire</th>
+							<th scope="row" id="gsire">Grandsire</th>
 							<td>ABC</td>
 						</tr>
 						<tr>
-							<th scope="row">Damsire</th>
+							<th scope="row" id="damsire">Damsire</th>
 							<td>DEF</td>
 						</tr>
 						</tbody>
 					</table>
-					<h2 class="text-center">Registrations</h2>
+					<h2 class="text-center" id="registrations">Registrations</h2>
 					<table class="table">
 						<tbody>
 							<tr>
-								<th scope="row">FEI</th>
+								<th scope="row" if="fei">FEI</th>
 								<td>X</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
 				<div class="col-md-4">
-					<h2 class="text-center">Care instructions</h2>
+					<h2 class="text-center" id="careinstructions">Care instructions</h2>
 					<table class="table">
 						<tbody>
 						<tr>
-							<th scope="row">Feed</th>
+							<th scope="row" if="feed">Feed</th>
 							<td>X</td>
 						</tr>
 						<tr>
-							<th scope="row">Supplements</th>
+							<th scope="row" id="supplements">Supplements</th>
 							<td>X</td>
 						</tr>
 						<tr>
-							<th scope="row">Rugging</th>
+							<th scope="row" id="rugging">Rugging</th>
 							<td>X</td>
 						</tr>
 						<tr>
-							<th scope="row">Medications</th>
+							<th scope="row" id="medications">Medications</th>
 							<td>X</td>
 						</tr>
 						<tr>
-							<th scope="row">Notes</th>
+							<th scope="row" id="notes">Notes</th>
 							<td>X</td>
 						</tr>
 						</tbody>
 					</table>
-					<h2 class="text-center">Weekly schedule</h2>
+					<h2 class="text-center" id="weeklyschedule">Weekly schedule</h2>
 					<table class="table">
 						<thead>
 							<tr>
@@ -131,13 +131,13 @@
 						</thead>
 						<tbody>
 						<tr>
-							<td>Train</td>
-							<td>Off</td>
-							<td>Train</td>
-							<td>Off</td>
-							<td></td>
-							<td>Hike</td>
-							<td></td>
+							<td id="schedmon">Train</td>
+							<td id="schedtues">Off</td>
+							<td id="schedwed">Train</td>
+							<td id="schedthurs">Off</td>
+							<td id="schedfri"></td>
+							<td id="schedsat">Hike</td>
+							<td id="schedsun"></td>
 						</tr>
 						</tbody>
 					</table>
