@@ -9,7 +9,7 @@ app.listen('9000');
 app.use(express.static('public'));
 
 let horseInfo = {
-  horsename: "Auztin",
+  horsename: "Bomba",
   horsetype: "Stallion",
   appointment: "19/11/2017",
   dob: "23/05/1996",
