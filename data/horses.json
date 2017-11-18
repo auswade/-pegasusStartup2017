@@ -6,9 +6,26 @@
 		"height": 100,
 		"mood": "happy",
 		"family_tree": {
-			"father": 321654987,
-			"mother": 444555666
+				
+			"Sire" : { 
+			"id" : 123456789
+			"name" : "";
+				}
+			"Dam":{
+			"id":234567889
+			"name":"";
+			}
+			"Grandsire" : { 
+			"id" : 12344456789
+			"name" : "";
+				}
+			"Damsire": {
+			"id":2348474889
+			"name": "";
+			}
+			
 		}
+		
 		"registrations": {
 			"EA": "",
 			"FEI": "",
@@ -48,7 +65,8 @@
 		},
 		"trainings" : {
 			{
-				"notes"
+				"notes": ,
+				"schedules": 
 			}
 		}
 	}

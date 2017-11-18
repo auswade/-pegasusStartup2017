@@ -1,11 +1,34 @@
 {
-	"id": 1,
-	"name": "John Doe",
-	"email": "",
-	"address": "",
-	"horses": [
-		1,
-		5,
-		9
-	]
+	{
+		"id": 1,
+		"name": "John Doe",
+		"email": "",
+		"address": "",
+		"horses": [
+			123456789,
+			5,
+			9
+		]
+	},
+	{
+		"id": 2,
+		"name":  "David",
+		"email": "",
+		"address": "",
+		"horses": [
+			3,
+			6,
+			2
+		]
+	},
+	{
+		"id": 3,
+		"name": "Bob",
+		"email": "",
+		"address": "",
+		"horses": [
+			12,
+			34
+		]
+	}
 }
