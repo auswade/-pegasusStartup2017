@@ -36,9 +36,16 @@ let horseInfo = {
   schedsun: "Date Night"
 };
 
-app.get('/api/horse', loadHorse);
+// app.get('/', loadHorse);
+app.get('/api/horse', loadHomePage);
 
 console.log("Connected to http://localhost:9000")
+
+function loadHomePage(req, res){
+  console.log(req.query);
+  res.json(horseInfo);
+  // res.html('index.html')
+}
 
 function loadHorse(req, res){
   console.log(req.query);
