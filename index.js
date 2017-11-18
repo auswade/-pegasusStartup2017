@@ -1,13 +1,13 @@
 let express = require('express');
-let app = express();
+let bodyParser = require('body-parser');
 let path = require('path');
 
-function run(){
-  app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname + '/profile/index.html'));
-  })
+let app = express();
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false}));
+app.listen('8080');
+app.use(express.static('public'));
 
-  app.listen(8080);
-}
-
-run();
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname + '/profile/index.html'));
+})
